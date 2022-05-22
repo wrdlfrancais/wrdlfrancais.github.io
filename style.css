@@ -1,0 +1,108 @@
+h1
+{
+  font-family:"Cambria";
+  color: #d10099;
+  text-align: center;
+}
+.vocab
+{
+  border-width:thin;
+  text-align: center;
+  font-size:3rem; 
+}
+#restaurantV,#verbV,#travelV,#enterVocab
+{
+  color: #d10099;
+  font-family:"Cambria";
+  font-size:20px;
+}
+.words
+{
+  border-width:thin;
+  text-align: center;
+  font-size:3rem;
+}
+#word1A,#word1B,#word1C,#word1D,#word1E,
+#word2A,#word2B,#word2C,#word2D,#word2E,
+#word3A,#word3B,#word3C,#word3D,#word3E,
+#word4A,#word4B,#word4C,#word4D,#word4E,
+#word5A,#word5B,#word5C,#word5D,#word5E,
+#word6A,#word6B,#word6C,#word6D,#word6E
+{
+  font-family:"Cambria";
+  font-size:30px;
+  height: 3rem;
+  width: 3rem;
+  border: 2px solid gray;
+  border-radius: 3px;
+  margin: 2px;
+  justify-content: center;
+}
+#word1,#word2,#word3,#word4,#word5,#word6
+{
+  font-family:"Cambria";
+  font-size:20px; 
+  height: 3rem;
+  border: 2px solid gray;
+  border-radius: 3px;
+  margin: 2px;
+  justify-content: center;
+}
+
+#word1A3,#word1B3,#word1C3,#word1D3,#word1E3,
+#word2A3,#word2B3,#word2C3,#word2D3,#word2E3,
+#word3A3,#word3B3,#word3C3,#word3D3,#word3E3,
+#word4A3,#word4B3,#word4C3,#word4D3,#word4E3,
+#word5A3,#word5B3,#word5C3,#word5D3,#word5E3,
+#word6A3,#word6B3,#word6C3,#word6D3,#word6E3
+{
+  color:red;
+  font-family:"Cambria";
+  font-size:30px;
+  height: 3rem;
+  width: 3rem;
+  border: 2px solid gray;
+  border-radius: 3px;
+  margin: 2px;
+  justify-content: center;
+}
+
+#word1A2,#word1B2,#word1C2,#word1D2,#word1E2,
+#word2A2,#word2B2,#word2C2,#word2D2,#word2E2,
+#word3A2,#word3B2,#word3C2,#word3D2,#word3E2,
+#word4A2,#word4B2,#word4C2,#word4D2,#word4E2,
+#word5A2,#word5B2,#word5C2,#word5D2,#word5E2,
+#word6A2,#word6B2,#word6C2,#word6D2,#word6E2
+{
+  color:blue;
+  font-family:"Cambria";
+  font-size:30px;
+  height: 3rem;
+  width: 3rem;
+  border: 2px solid gray;
+  border-radius: 3px;
+  margin: 2px;
+  justify-content: center;
+}
+
+#word1A1,#word1B1,#word1C1,#word1D1,#word1E1,
+#word2A1,#word2B1,#word2C1,#word2D1,#word2E1,
+#word3A1,#word3B1,#word3C1,#word3D1,#word3E1,
+#word4A1,#word4B1,#word4C1,#word4D1,#word4E1,
+#word5A1,#word5B1,#word5C1,#word5D1,#word5E1,
+#word6A1,#word6B1,#word6C1,#word6D1,#word6E1
+{
+  color:green;
+  font-family:"Cambria";
+  font-size:30px;
+  height: 3rem;
+  width: 3rem;
+  border: 2px solid gray;
+  border-radius: 3px;
+  margin: 2px;
+  justify-content: center;
+}
+body 
+{
+  background-color: lightgray;
+}
