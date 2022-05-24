@@ -40,7 +40,10 @@ let restaurantV=document.getElementById("restaurantV");
 let verbV=document.getElementById("verbV");
 let travelV=document.getElementById("travelV");
 let enterVocab=document.getElementById("enterVocab");
-
+let instructions=document.getElementById("instructions");
+instructions.addEventListener("click", function(){
+  alert("Bienvenue à Wordle. Vous avez six suppositions pour devenir le mot. Le bleu représente une lettre dans le Wordle mais dans la place incorrecte. Le rouge répresente une lettre qui n'est pas dans le Wordle. Le vert répresente une lettre dans le Wordle dans la place correcte. Vous pouvez choisir le vocabulaire thème que vous voulez avec les boutons sous.");
+})
 restaurantV.addEventListener("click", function(){
   words.push("payer","boire","mangé","soupe","pomme","poire","fruit","pâtes","glace","crèpe");
   restaurantV.innerText="Choisi";
@@ -54,10 +57,18 @@ travelV.addEventListener("click", function(){
   travelV.innerText="Choisi";
 })
 enterVocab.addEventListener("click", function(){
+  if (words.length===0)
+  {
+    alert("Choisi le vocabulaire");
+  }
+  else
+  {
   let randNum=Math.floor(Math.random() * words.length);
   let word = words[randNum];
   chosenWord=word;
-  console.log("Final chosen word:" + word);
+  console.log("Final chosen word:" + chosenWord);
+  enterVocab.disabled=true;
+  }
 })
 
 word1A.addEventListener("click", function(){
