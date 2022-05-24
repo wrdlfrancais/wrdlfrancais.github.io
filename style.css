@@ -4,6 +4,14 @@ h1
   color: #d10099;
   text-align: center;
 }
+#instructions
+{
+  color: orange;
+  font-family:"Cambria";
+  font-size:20px; 
+  border-width:thin;
+  text-align: center;
+}
 .vocab
 {
   border-width:thin;
